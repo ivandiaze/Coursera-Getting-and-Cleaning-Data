@@ -44,6 +44,21 @@ The dataset includes the following files:
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
+## Variables
+
+- activity_labels: Data table for activity labels
+- features: Data table for features
+- extract_features: Measurements on the mean and standard deviation for each measurement.
+- X_test: Data table for test/X_test.txt
+- y_test: Data table for test/Y_test.txt
+- subject_test: Data table for test/subject_test.txt
+- test_data: Data binded from subject_test, y_test and x_test
+- X_train: Data table for test/X_train.txt
+- y_train: Data table for test/Y_train.txt
+- subject_ttrain: Data table for test/subject_train.txt
+- data: Merged data from test and train
+- tidy_data: The final tidy data
+
 ## Transformation details (run_analysis.R)
 
 The run_analysis.R script performs the following transformations:
