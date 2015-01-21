@@ -46,6 +46,8 @@ The dataset includes the following files:
 
 ## Transformation details (run_analysis.R)
 
+The run_analysis.R script performs the following transformations:
+
 - Load both test and train data
 - Load the features and activity labels.
 - Extract the mean and standard deviation column names and data.
