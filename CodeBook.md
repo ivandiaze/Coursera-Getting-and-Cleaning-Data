@@ -1,6 +1,6 @@
 # Description
 
-Code Book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
+Code Book that describes the variables, the data, and any transformations or work  performed to clean up the data.
 
 ## Data source
 
@@ -44,10 +44,10 @@ The dataset includes the following files:
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-## Transformation details
+## Transformation details (run_analysis.R)
 
-- Merges the training and the test sets to create one data set.
-- Extracts only the measurements on the mean and standard deviation for each measurement.
-- Uses descriptive activity names to name the activities in the data set
-- Appropriately labels the data set with descriptive activity names.
-- Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+- Load both test and train data
+- Load the features and activity labels.
+- Extract the mean and standard deviation column names and data.
+- Process the data. There are two parts processing test and train data respectively.
+- Merge data set.
